@@ -7,6 +7,8 @@
     <title>CSS Margin and padding</title>
     <style>
         .box {
+            width: 200px;
+            height: 200px;
             background-color: yellow;
             margin: 100px;
             margin: 100px;
@@ -27,16 +29,47 @@
             padding: 10px 20px;
             padding: 10px 20px 30px 40px;
             padding: 10px 20px 30px;
+
+            border: 5px solid lightblue;
+
+            border-color: red;
+            border-width: 10px;
+            border-style: dashed;
+            border-style: groove;
+            /* border: none; */
+            /* 
+            border-top-color: lightblue;
+            border-left-color: lightblue;
+
+            border-top-width: 20px;
+            border-left-width: 20px;
+
+            border-bottom-style: double;
+            border-right-style: double; */
+
+
+            /* border-radius: 50%; */
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 70px;
+
+            border-radius: 10px 20px 300px 300px;
+        }
+
+        input {
+            outline: none;
+            outline: 2px solid red;
+            border: 2px solid rgb(4, 255, 0);
         }
     </style>
 </head>
 
 <body>
+
+    <input type="text">
     <div class="box">
         <h1>Lorem ipsum dolor sit amet.</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab ipsum soluta illum dicta, odio accusamus sint
-            et? Provident pariatur nesciunt, maxime, nam doloribus laborum soluta omnis laudantium distinctio, nostrum
-            recusandae.</p>
+            et? Provident pariatur nesciunt, maxime, </p>
     </div>
 </body>
 
