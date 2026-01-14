@@ -12,6 +12,10 @@
             padding: 0;
         }
 
+        main {
+            background-image: url('https://themewagon.github.io/Nova-Bootstrap5_beta1/assets/img/hero/hero-5/hero-bg.svg');
+        }
+
         nav {
             display: flex;
             justify-content: space-around;
@@ -19,7 +23,7 @@
             color: white;
             padding: 20px;
             border-radius: 40px;
-            margin: 20px;
+            margin: 0 20px;
         }
 
         .logo {
@@ -42,6 +46,7 @@
 
         /* heroSection */
         .heroSection {
+            background: url('https://themewagon.github.io/Nova-Bootstrap5_beta1/assets/img/hero/hero-5/hero-bg.svg');
             display: flex;
             gap: 20px;
             margin: 20px;
@@ -80,31 +85,34 @@
 
 <body>
     <!-- navbar -->
-    <nav>
-        <div class="logo">
-            Ganesh<span>.Dutt</span>
-        </div>
-        <ul class="list">
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Services</li>
-        </ul>
-    </nav>
+    <main>
+        <nav>
+            <div class="logo">
+                Ganesh<span>.Dutt</span>
+            </div>
+            <ul class="list">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+        </nav>
 
-    <!-- heroSection -->
-    <div class="heroSection">
-        <div class="sec1Text">
-            <h1>Lorem ipsum dolor.</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero eius reiciendis saepe laboriosam quam,
-                impedit aperiam? Eveniet totam fugit saepe omnis rem nemo ipsa provident! Itaque dolorem ut obcaecati
-                nemo.</p>
-            <button class="btn">Click me </button>
+        <!-- heroSection -->
+        <div class="heroSection">
+            <div class="sec1Text">
+                <h1>Lorem ipsum dolor.</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero eius reiciendis saepe laboriosam quam,
+                    impedit aperiam? Eveniet totam fugit saepe omnis rem nemo ipsa provident! Itaque dolorem ut
+                    obcaecati
+                    nemo.</p>
+                <button class="btn">Click me </button>
+            </div>
+            <div class="sec1Image">
+                <img src="https://ganeshdutt.netlify.app/GaneshNewImagePhoneView2.png" alt="">
+            </div>
         </div>
-        <div class="sec1Image">
-            <img src="https://ganeshdutt.netlify.app/GaneshNewImagePhoneView2.png" alt="">
-        </div>
-    </div>
+    </main>
 </body>
 
 </html>
