@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            background-color: black;
+            color: white;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .list {
+            display: none;
+        }
+
+        .heroSection {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: lightslategray;
+            color: black;
+            border-radius: 30px;
+        }
+
+        .heroSection img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+        }
+
+        @media only screen and (min-width:700px) {
+            .list {
+                display: flex;
+                gap: 20px;
+                list-style-type: none;
+            }
+
+            .bar {
+                display: none;
+            }
+
+            /* .heroSection */
+            .heroSection {
+
+                flex-direction: row;
+
+                text-align: start;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            Ganesh <span> Dutt</span>
+        </div>
+        <ul class="list">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Project</li>
+        </ul>
+        <div class="bar">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!-- heroSection -->
+    <div class="heroSection">
+        <!-- first half -->
+        <div class="heroText">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam at excepturi itaque suscipit eligendi
+                incidunt dolorem recusandae quidem quod maxime beatae magnam, voluptates cum delectus fugit explicabo
+                quia, tempora minima?</p>
+            <button>Click me</button>
+        </div>
+
+        <!-- second half -->
+        <img src="https://ganeshdutt.netlify.app/newImgGanesh3Circle1.jpg" alt="">
+    </div>
+</body>
+
+</html>
