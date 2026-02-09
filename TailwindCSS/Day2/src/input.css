@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+/* base Element  
+ components 
+ utilities 
+*/
+
+@layer base {
+  h1 {
+    @apply text-2xl font-bold text-gray-900;
+  }
+}
+
+@layer components {
+  .btn-danger {
+    @apply bg-red-900 hover:bg-red-600 cursor-pointer text-white px-5 py-2 rounded-full;
+  }
+  .btn-blue {
+    @apply bg-blue-900 hover:bg-blue-600 cursor-pointer text-white px-5 py-2 rounded-full;
+  }
+}
+
+@layer utilities {
+  .container {
+    padding: 0 30px;
+  }
+}
