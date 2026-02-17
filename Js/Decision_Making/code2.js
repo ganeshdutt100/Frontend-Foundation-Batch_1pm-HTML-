@@ -41,30 +41,71 @@ console.log("Code2");
 // stm
 
 // }
-day = 11;
+// day = 11;
+// switch (day) {
+//   case 1:
+//     console.log("monday");
+//     break;
+//   case 2:
+//     console.log("tuesday");
+//     break;
+//   case 3:
+//     console.log("wednesday");
+//     break;
+//   case 4:
+//     console.log("thursday");
+//     break;
+//   case 5:
+//     console.log("friday");
+//     break;
+//   case 6:
+//     console.log("saturday");
+//     break;
+//   case 7:
+//     console.log("sunday");
+//     break;
+//   default:
+//     console.log("Invalid days");
+// }
 
-switch (day) {
-  case 1:
-    console.log("monday");
-    break;
-  case 2:
-    console.log("tuesday");
-    break;
-  case 3:
-    console.log("wednesday");
-    break;
-  case 4:
-    console.log("thursday");
-    break;
-  case 5:
-    console.log("friday");
-    break;
-  case 6:
-    console.log("saturday");
-    break;
-  case 7:
-    console.log("sunday");
-    break;
-  default:
-    console.log("Invalid days");
-}
+// let username = "ganesh_dutt";
+// if (username == "ganesh_dutt") {
+// }
+
+// let year = 1900;
+// if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+//   console.log("Leap year ");
+// } else {
+//   console.log("Not leap year ");
+// }
+// let temp = 30;
+// if (temp > 30) {
+//   console.log("Hot");
+// } else {
+//   console.log("Normal");
+// }
+
+// let a = 5;
+// let b = 10;
+
+// let temp = a;
+// a = b;
+// b = temp;
+// console.log(a);
+// console.log(b);
+
+// let name = prompt("Enter your name :");
+// console.log("Welcome :  ", name);
+
+// let username = prompt("Enter your username : ");
+// let password = prompt("Enter your password :  ");
+
+// if (username == "GaneshDutt") {
+//   if (password == "Ganeshdutt@100") {
+//     console.log("Login Successfully");
+//   } else {
+//     console.log("Wrong Password");
+//   }
+// } else {
+//   console.log("Wrong Username ");
+// }
