@@ -99,3 +99,59 @@ console.log("Code-3");
 // Print numbers divisible by both 3 and 5 from 1 to 100.
 
 // Count total numbers from 1 to 100 using a loop.
+
+// let num = 9;
+// let count = 0; //1, 2,3
+
+// for (let i = 1; i <= num; i++) {
+//   if (num % i == 0) {
+//     count++;
+//   }
+// }
+// if (count === 2) {
+//   console.log("prime");
+// } else {
+//   console.log("not prime");
+// }
+
+let num = 987654321;
+let largest = 0;
+while (num > 0) {
+  let digit = num % 10;
+  if (digit > largest) {
+    largest = digit;
+  }
+  num = (num - digit) / 10;
+}
+
+console.log("Largest Digit :  ", largest);
+
+// next  = pre +  current
+
+let n = 10;
+
+let a = 0;
+let b = 1;
+
+console.log(a);
+console.log(b);
+
+for (let i = 3; i <= n; i++) {
+  let next = a + b;
+  console.log(next);
+  a = b;
+  b = next;
+}
+
+//  a + b  = next
+
+//  a = b  , b = next
+
+// 0 +1 = 1
+// 1 + 1 = 2
+// 1 +2 = 3
+// 2 +  3 = 5
+// 3 + 5 = 8
+// 5 +  8 = 13
+// 8+13 = 21
+// 13 +21 = 34
