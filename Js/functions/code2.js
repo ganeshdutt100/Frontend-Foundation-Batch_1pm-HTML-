@@ -30,12 +30,28 @@
 
 // supplementsDiscount(100, 20);
 
-function checkAuth(isLoggedIn) {
-  if (isLoggedIn) {
-    return "Welcome to the Dashboard";
-  } else {
-    return "please signIn first";
-  }
+// function checkAuth(isLoggedIn) {
+//   if (isLoggedIn) {
+//     return "Welcome to the Dashboard";
+//   } else {
+//     return "please signIn first";
+//   }
+// }
+// let useLogged = true;
+// console.log(checkAuth(useLogged));
+
+let user1 = { name: "Ganesh" };
+let user2 = { name: "Kartik" };
+
+function welcome(city, expertise) {
+  console.log(`hello ${this.name} from ${city} expert in ${expertise}`);
 }
-let useLogged = true;
-console.log(checkAuth(useLogged));
+// welcome.call(user2, "Delhi", "MERN");
+// welcome.apply(user2, ["Delhi", "FS"]);
+let newFunction = welcome.bind(user1, "Noida", "Training");
+newFunction();
+
+// apply(this,[arg1,arg2])
+// let value = "Hello";
+// console.log(value, "ganesh");
+// console.log(`${value} Ganesh Dutt`);
