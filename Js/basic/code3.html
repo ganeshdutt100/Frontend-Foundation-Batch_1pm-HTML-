@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input id="input" type="text"> <br>
+    <input id="input" type="text" placeholder="+,-"> <br>
+    <input id="input" type="text">
+    <p id="para">loading...</p>
+    <button onclick="fun()">Click me </button>
+    <script>
+        let input = document.getElementById("input")
+        input.value = "5"
+
+        function fun() {
+            let name = document.getElementById("para")
+            name.innerHTML = "Ganesh Dutt"
+        }
+        // fun()
+    </script>
+</body>
+
+</html>
